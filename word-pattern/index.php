@@ -1,7 +1,7 @@
 <?php
 
 /**
- * leetcode problem: word-pattern.
+ * leetcode problem: word-pattern
  *
  * url: https://leetcode.com/problems/word-pattern/
  *
