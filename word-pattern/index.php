@@ -17,7 +17,6 @@ function wordPattern(string $pattern, string $s): bool
 
     if (count(str_split($pattern)) != count(explode(" ", $s))) return false;
 
-
     foreach (explode(" ", $s) as $key => $word) {
 
         if (array_key_exists($patternArray[$key], $array)) {
