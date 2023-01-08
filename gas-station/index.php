@@ -13,7 +13,7 @@ function canCompleteCircuit(array $gas, array $cost): int
 {
     $sGas = 0;
     $sCost = 0;
-    $res = 0;
+    $result = 0;
     $total = 0;
     for ($i = 0; $i < count($gas); $i++) {
         $sGas += $gas[$i];
@@ -24,10 +24,10 @@ function canCompleteCircuit(array $gas, array $cost): int
         $total += $gas[$i] - $cost[$i];
         if ($total < 0) {
             $total = 0;
-            $res = $i + 1;
+            $result = $i + 1;
         }
     }
-    return $res;
+    return $result;
 }
 
 var_dump(
