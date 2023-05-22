@@ -8,7 +8,6 @@
  * @param String $s
  * @return Boolean
  */
-
 function isValid(string $s): bool
 {
     $array = str_split($s);
